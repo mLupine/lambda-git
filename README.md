@@ -19,7 +19,7 @@ arm64 layers are only available in regions that support arm64-based Lambdas.
 
 | Git Version | OpenSSH Version | OpenSSL Version | x86_64 layer ARN                                               | arm64 layer ARN                                               |
 | ----------- | --------------- | --------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
-| 2.33.1      | 8.8p1           | 1.1.1l          | arn:aws:lambda:<region>:110966697890:layer:lambda-git-x86_64:1 | arn:aws:lambda:<region>:110966697890:layer:lambda-git-arm64:1 |
+| 2.33.1      | 8.8p1           | 1.1.1l          | `arn:aws:lambda:<region>:110966697890:layer:lambda-git-x86_64:1` | `arn:aws:lambda:<region>:110966697890:layer:lambda-git-arm64:1` |
 
 Make sure to replace `<region>` with the AWS region you are using to deploy your Lambdas.
 
